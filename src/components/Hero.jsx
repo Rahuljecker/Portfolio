@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../style'
-import Computers from "./canvas/Computers"
+import ComputerCanvas from "./canvas/Computers"
 import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
       </div>
         </div>
       </div>
-       <Computers/>
+       <ComputerCanvas/>
        <div className='bottom-32 absolute w-full justify-center xs:bottom-10 items-center flex'>
             <a href="#about">
               <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary justify-center items-start flex p-2 cursor-pointer' id="about" >
